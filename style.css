@@ -1,0 +1,38 @@
+.hobbies-image {
+    margin: 30px;
+    border-radius: 20px;
+    height: 220px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: 190px 190px 190px;
+    column-gap: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+}
+
+.list {
+    padding-top: 20px;
+    padding-inline-start: 10px;
+
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #eee7e7;
+  color: #563232;
+}
