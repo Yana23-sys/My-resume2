@@ -1,17 +1,17 @@
 .hobbies-image {
-    margin: 30px;
-    border-radius: 20px;
-    height: 220px;
-    width: 200px;
-    object-fit: cover;
-  }
+  margin: 30px;
+  border-radius: 20px;
+  height: 220px;
+  width: 200px;
+  object-fit: cover;
+}
 
 .container {
-    display: grid;
-    grid-template-columns: 190px 190px 190px;
-    column-gap: 40px;
-    justify-items: center;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 190px 190px 190px;
+  column-gap: 40px;
+  justify-items: center;
+  align-items: center;
 }
 
 .parent-container {
@@ -22,8 +22,8 @@
 }
 
 .list {
-    padding-top: 20px;
-    padding-inline-start: 10px;
+  padding-top: 20px;
+  padding-inline-start: 10px;
 
 }
 
@@ -38,69 +38,68 @@ body {
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background: #ccc;
-    margin: 20px 0;
-  }
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 20px 0;
+}
   
-  img {
-    width: 100px;
-    border-radius: 30%;
-    float: left;
-    margin-right: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
+img {
+  width: 100px;
+  border-radius: 30%;
+  float: left;
+  margin-right: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
   
-  .username {
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-top: 10px;
-  }
-  
-  h2 {
-    border-bottom: 3px solid #ccc;
-    margin-top: 60px;
-  }
-  
-  h1, h2 {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Sans Unicode", Verdana, sans-serif;
-    font-style: italic;
-    color: #333;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  li em {
-    display: block;
-    font-style: normal;
-    color: #777;
-  }
-  
-  .checked {
-    color: orange;
-  }
-  
-  p {
-    margin-bottom: 20px;
-  }
-  
-  a {
-    color: #1a0dab;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 0.8em;
-    color: #777;
-  }
-  
-  
+.username {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+h2 {
+  border-bottom: 3px solid #ccc;
+  margin-top: 60px;
+}
+
+h1, h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Sans Unicode", Verdana, sans-serif;
+  font-style: italic;
+  color: #333;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li em {
+  display: block;
+  font-style: normal;
+  color: #777;
+}
+
+.checked {
+  color: orange;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.8em;
+  color: #777;
+}
+
